@@ -1,0 +1,28 @@
+{
+  "name": "@scedel/parser",
+  "version": "0.1.0",
+  "description": "Scedel parser and lightweight AST for JS/TS",
+  "license": "MIT",
+  "author": "SCEDel contributors",
+  "keywords": [
+    "scedel",
+    "schema",
+    "parser",
+    "json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "scedel-parse-example": "./bin/parse-example.mjs"
+  },
+  "scripts": {
+    "parse-example": "node ./bin/parse-example.mjs",
+    "test": "node --test ./tests/*.test.js"
+  }
+}
