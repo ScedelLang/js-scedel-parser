@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Scedel parser and lightweight AST for JS/TS",
   "license": "MIT",
-  "author": "SCEDel contributors",
+  "author": "Scedel contributors",
   "keywords": [
     "scedel",
     "schema",
