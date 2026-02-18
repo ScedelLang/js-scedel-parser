@@ -1,6 +1,6 @@
 {
   "name": "@scedel/parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Scedel parser and lightweight AST for JS/TS",
   "license": "MIT",
   "author": "Scedel contributors",
